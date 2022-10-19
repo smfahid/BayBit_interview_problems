@@ -1,0 +1,25 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    transform: translateY(90%);
+    animation: changeShape 5s;
+    animation-delay: 1s;
+}
+
+@keyframes changeShape {
+    from {
+        border-radius: 0;
+    }
+    to {
+        border-radius: 0;
+    }
+}
